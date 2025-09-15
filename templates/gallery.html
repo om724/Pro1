@@ -1,0 +1,261 @@
+{% extends "base.html" %}
+
+{% block title %}Traditional Kolam Gallery{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <!-- Header -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="text-center">
+                <h1 class="display-4 text-primary">
+                    <i class="fas fa-images me-3"></i>
+                    Traditional Kolam Gallery
+                </h1>
+                <p class="lead text-muted">
+                    Explore authentic traditional patterns from different regions and festivals
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="row" id="gallery-grid">
+        <!-- Basic Pulli Kolam -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm h-100 gallery-card" data-pattern="basic_pulli">
+                <div class="card-img-top pattern-placeholder" style="height: 250px; background: #f8f9fa;">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Basic Pulli Kolam</h5>
+                    <p class="card-text text-muted">
+                        Traditional dot-based pattern with simple geometric loops. 
+                        Forms the foundation of Kolam art.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">
+                            <i class="fas fa-tag me-1"></i>Pulli Kolam
+                        </small>
+                        <button class="btn btn-primary btn-sm view-pattern-btn" data-pattern="basic_pulli">
+                            <i class="fas fa-eye me-1"></i>View
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Diamond Pulli Kolam -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm h-100 gallery-card" data-pattern="diamond_pulli">
+                <div class="card-img-top pattern-placeholder" style="height: 250px; background: #f8f9fa;">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Diamond Pulli Kolam</h5>
+                    <p class="card-text text-muted">
+                        Elegant diamond-shaped patterns that expand outward 
+                        from the center in concentric layers.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">
+                            <i class="fas fa-tag me-1"></i>Pulli Kolam
+                        </small>
+                        <button class="btn btn-primary btn-sm view-pattern-btn" data-pattern="diamond_pulli">
+                            <i class="fas fa-eye me-1"></i>View
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rangoli Flower -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm h-100 gallery-card" data-pattern="rangoli_flower">
+                <div class="card-img-top pattern-placeholder" style="height: 250px; background: #f8f9fa;">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Rangoli Flower</h5>
+                    <p class="card-text text-muted">
+                        Beautiful floral pattern with multiple layers of petals
+                        and decorative elements around the border.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">
+                            <i class="fas fa-tag me-1"></i>Festival Kolam
+                        </small>
+                        <button class="btn btn-primary btn-sm view-pattern-btn" data-pattern="rangoli_flower">
+                            <i class="fas fa-eye me-1"></i>View
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deepavali Special -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm h-100 gallery-card" data-pattern="deepavali_special">
+                <div class="card-img-top pattern-placeholder" style="height: 250px; background: #f8f9fa;">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Deepavali Special</h5>
+                    <p class="card-text text-muted">
+                        Elaborate festival pattern featuring star motifs, 
+                        concentric rings, and corner decorations.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">
+                            <i class="fas fa-tag me-1"></i>Festival Kolam
+                        </small>
+                        <button class="btn btn-primary btn-sm view-pattern-btn" data-pattern="deepavali_special">
+                            <i class="fas fa-eye me-1"></i>View
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pongal Kolam -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm h-100 gallery-card" data-pattern="pongal_kolam">
+                <div class="card-img-top pattern-placeholder" style="height: 250px; background: #f8f9fa;">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Pongal Festival Kolam</h5>
+                    <p class="card-text text-muted">
+                        Traditional harvest festival pattern featuring 
+                        rice plant motifs and prosperity symbols.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">
+                            <i class="fas fa-tag me-1"></i>Festival Kolam
+                        </small>
+                        <button class="btn btn-primary btn-sm view-pattern-btn" data-pattern="pongal_kolam">
+                            <i class="fas fa-eye me-1"></i>View
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Geometric Sikku -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm h-100 gallery-card" data-pattern="geometric_sikku">
+                <div class="card-img-top pattern-placeholder" style="height: 250px; background: #f8f9fa;">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Geometric Sikku Kolam</h5>
+                    <p class="card-text text-muted">
+                        Complex interlocking pattern with spirals and 
+                        connecting curves forming geometric arrangements.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">
+                            <i class="fas fa-tag me-1"></i>Sikku Kolam
+                        </small>
+                        <button class="btn btn-primary btn-sm view-pattern-btn" data-pattern="geometric_sikku">
+                            <i class="fas fa-eye me-1"></i>View
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pattern Detail Modal -->
+<div class="modal fade" id="patternModal" tabindex="-1" aria-labelledby="patternModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="patternModalLabel">
+                    <i class="fas fa-star-of-david me-2"></i>
+                    Pattern Details
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="text-center mb-3">
+                            <div id="modal-pattern-display">
+                                <div class="spinner-border text-primary" role="status">
+                                    <span class="visually-hidden">Loading pattern...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header bg-info text-white">
+                                <h6 class="mb-0">Pattern Information</h6>
+                            </div>
+                            <div class="card-body">
+                                <div id="modal-pattern-info">
+                                    <div class="spinner-border spinner-border-sm text-primary" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mt-3">
+                            <div class="card-header bg-warning">
+                                <h6 class="mb-0">Cultural Significance</h6>
+                            </div>
+                            <div class="card-body">
+                                <div id="modal-cultural-info">
+                                    <!-- Cultural information will be loaded here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="btn-group me-auto">
+                    <button type="button" class="btn btn-success" id="modal-export-png">
+                        <i class="fas fa-download me-1"></i>PNG
+                    </button>
+                    <button type="button" class="btn btn-success" id="modal-export-svg">
+                        <i class="fas fa-download me-1"></i>SVG
+                    </button>
+                </div>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/gallery.js') }}"></script>
+{% endblock %}
